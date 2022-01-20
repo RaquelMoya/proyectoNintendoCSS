@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Common styles */
+
+.directional{
+    height: 2em;
+    width: 2em;
+    
+    border-radius: 100%;
+    background-image: linear-gradient(to right, rgb(31, 30, 30), rgb(59, 58, 58));
+}
+
+.multiControls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-top: 10%;
+    height: 6em;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 2em;
+    width: 2em;
+
+    border-radius: 100%;
+    background-image: linear-gradient(to right, black, rgb(59, 58, 58));
+    color: white;
+    font-size: 1em;    
+}
+
+.rowCircle{
+    width: 7em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.square{
+    margin-top: 1em;
+    margin-left: 5em;
+    height: 1.2em;
+    width: 1.2em;
+    background-color: black;
+}
