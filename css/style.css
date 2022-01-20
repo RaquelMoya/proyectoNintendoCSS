@@ -22,7 +22,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
+
     margin-top: 10%;
     height: 6em;
 }
@@ -53,4 +53,245 @@ body{
     height: 1.2em;
     width: 1.2em;
     background-color: black;
+}
+
+/* SCREEN */
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 18.8em;
+    width: 30em;
+    background-color: black;
+}
+
+.gameArea{
+    height: 16em;
+    width: 27em;
+    background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(49, 49, 49));
+}
+
+.gameOn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../img/31Ko.gif);
+    background-position: center;
+    height: 16em;
+}
+
+/* LEFT CONTROLLER */
+
+.leftControl{
+    display: flex;
+    flex-direction: column;
+
+    height: 18.8em;
+    width: 8em;
+
+    background-color: lightseagreen;
+    border-radius: 4em 0 0 4em;
+    
+    transition: 0.5s;
+}
+
+.leftControl:hover{
+    transition: 0.5s;
+    margin-bottom: 5em;
+}
+
+.dashL {
+    margin-top: 0.8em;
+    margin-left: 6em;
+    width: 1.5em;
+    height: 0.5em;
+    background-color: black;
+}
+
+.circleControl-L {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0.8em;
+    margin-left: 2em;
+
+    height: 3.5em;
+    width: 3.5em;
+
+    border-radius: 100%;
+    background-image: linear-gradient(to right, black, rgb(34, 34, 34));
+}
+/*Arrow buttons*/
+
+.arrowDown{
+    width: 0;
+    height: 0;
+
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-top: 0.5em solid rgb(53, 53, 53);
+}
+
+.arrowUp{
+    width: 0;
+    height: 0;
+
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.5em solid rgb(53, 53, 53);
+}
+
+
+.arrowLeft{
+    width: 0;
+    height: 0;
+
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.5em solid rgb(53, 53, 53);
+
+    transform: rotate(30deg);
+}
+
+.arrowRight{
+    width: 0;
+    height: 0;
+
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0.5em solid rgb(53, 53, 53);
+
+    transform: rotate(90deg);
+}
+
+/* RIGHT CONTROLLER */
+
+.rightControl{
+    display: flex;
+    flex-direction: column;
+
+    height: 18.8em;
+    width: 8em;
+
+    background-color: red;
+    border-radius: 0 4em 4em 0;
+   
+    transition: 0.5s;
+}
+
+.rightControl:hover{
+    transition: 0.5s;
+    margin-bottom: 5em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+
+    height: 2em;
+    width: 2em;
+    
+}
+
+.dashR {
+    width: 1.5em;
+    height: 0.4em;
+
+    background-color: black;
+
+    top: 0.3em;
+}
+
+.dashRR {
+    position: relative;
+
+    width: 1.5em;
+    height: 0.4em;
+
+    background-color: black;
+
+    transform: rotate(90deg);
+    bottom: 0.4em;
+}
+
+.circleControl-r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1em;
+    margin-left: 2em;
+
+    height: 3.5em;
+    width: 3.5em;
+
+    border-radius: 100%;
+    background-color: black;   
+}
+
+/*Home Button*/
+
+.circleHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0.8em;
+    margin-left: 0.8em;
+
+    height: 2em;
+    width: 2em;
+
+    border-radius: 100%;
+    background-color: rgb(230, 2, 2);
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 1.2em;
+    width: 1.2em;
+
+    border-radius: 100%;
+    background-color: rgb(49, 49, 49);
+}
+
+.iconRoof{
+    width: 0;
+    height: 0;
+
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.5em solid black;
+}
+
+.iconSquare{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    margin-right: 0.05em;
+    background-color: black;
+
+    height: 0.4em;
+    width: 0.6em;
+}
+
+.door{
+    width: 0.1em;
+    height: 0.2em;
+    background-color: rgb(49, 49, 49);
 }
