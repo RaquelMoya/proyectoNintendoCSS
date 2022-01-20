@@ -36,7 +36,8 @@ body{
     border-radius: 100%;
     background-image: linear-gradient(to right, black, rgb(59, 58, 58));
     color: white;
-    font-size: 1em;    
+    font-size: 1em; 
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);   
 }
 .rowCircle{
     width: 7em;
@@ -50,6 +51,7 @@ body{
     height: 1.2em;
     width: 1.2em;
     background-color: black;
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 
 /* SCREEN */
@@ -89,6 +91,7 @@ body{
     border-radius: 4em 0 0 4em;
     
     transition: 0.5s;
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 .leftControl:hover{
     transition: 0.5s;
@@ -100,6 +103,7 @@ body{
     width: 1.5em;
     height: 0.5em;
     background-color: black;
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 /*Joystick*/
 .circleControl-L {
@@ -115,6 +119,7 @@ body{
 
     border-radius: 100%;
     background-image: linear-gradient(to right, black, rgb(34, 34, 34));
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 
 /*Arrow buttons*/
@@ -167,6 +172,7 @@ body{
     border-radius: 0 4em 4em 0;
    
     transition: 0.5s;
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 .rightControl:hover{
     transition: 0.5s;
@@ -192,6 +198,7 @@ body{
     background-color: black;
 
     top: 0.3em;
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 .dashRR {
     position: relative;
@@ -218,6 +225,7 @@ body{
 
     border-radius: 100%;
     background-color: black;   
+    box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 
 /*Home Button*/
