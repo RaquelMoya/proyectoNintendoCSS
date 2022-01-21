@@ -13,12 +13,13 @@ body {
     align-items: center;
     width: 100vw;
     height: 100vh;
+    flex-direction: row;
 }
 
 /* Common styles */
 .directional {
-    height: 2em;
-    width: 2em;
+    height: 2.3em;
+    width: 2.3em;
     
     border-radius: 100%;
     background-image: linear-gradient(to right, rgb(31, 30, 30), rgb(59, 58, 58));
@@ -58,7 +59,7 @@ body {
     margin-left: 5em;
     height: 1.2em;
     width: 1.2em;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 
@@ -68,12 +69,14 @@ body {
     justify-content: center;
     align-items: center;
 
-    height: 18.8em;
+    margin-top: 0.2em;
+
+    height: 19em;
     width: 30em;
     background-color: black;
 }
 .gameArea {
-    height: 16em;
+    height: 17em;
     width: 27em;
     background-image: linear-gradient(to right, rgb(27, 27, 27), rgb(49, 49, 49));
 }
@@ -84,7 +87,7 @@ body {
 
     background-image: url(../img/31Ko.gif);
     background-position: center;
-    height: 16em;
+    height: 17em;
 }
 
 /* LEFT CONTROLLER */
@@ -97,6 +100,13 @@ body {
 
     background-color: lightseagreen;
     border-radius: 4em 0 0 4em;
+
+    border-top: rgb(22, 22, 22);
+    border-width: 0.3em;
+    border-style: solid;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
     
     transition: 0.5s;
     box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
@@ -108,9 +118,10 @@ body {
 .dashL {
     margin-top: 0.8em;
     margin-left: 6em;
+    margin-right: 0.5em;
     width: 1.5em;
     height: 0.5em;
-    background-color: black;
+    background-color: rgb(22, 22, 22);
     box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
 }
 /*Joystick*/
@@ -135,25 +146,25 @@ body {
     width: 0;
     height: 0;
 
-    border-left: 0.3em solid transparent;
-    border-right: 0.3em solid transparent;
-    border-top: 0.5em solid rgb(53, 53, 53);
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.9em solid rgb(53, 53, 53);
 }
 .arrowUp {
     width: 0;
     height: 0;
 
-    border-left: 0.3em solid transparent;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0.5em solid rgb(53, 53, 53);
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.9em solid rgb(53, 53, 53);
 }
 .arrowLeft {
     width: 0;
     height: 0;
 
-    border-left: 0.3em solid transparent;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0.5em solid rgb(53, 53, 53);
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.9em solid rgb(53, 53, 53);
 
     transform: rotate(30deg);
 }
@@ -161,9 +172,9 @@ body {
     width: 0;
     height: 0;
 
-    border-left: 0.3em solid transparent;
-    border-right: 0.3em solid transparent;
-    border-bottom: 0.5em solid rgb(53, 53, 53);
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.9em solid rgb(53, 53, 53);
 
     transform: rotate(90deg);
 }
@@ -178,6 +189,13 @@ body {
 
     background-color: red;
     border-radius: 0 4em 4em 0;
+
+    border-top: rgb(22, 22, 22);
+    border-width: 0.3em;
+    border-style: solid;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
    
     transition: 0.5s;
     box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
@@ -203,7 +221,7 @@ body {
     width: 1.5em;
     height: 0.4em;
 
-    background-color: black;
+    background-color: rgb(22, 22, 22);
 
     top: 0.3em;
     box-shadow: 0.2em 0.2em 0.3em rgb(0, 0, 0);
@@ -214,7 +232,7 @@ body {
     width: 1.5em;
     height: 0.4em;
 
-    background-color: black;
+    background-color: rgb(22, 22, 22);
 
     transform: rotate(90deg);
     bottom: 0.4em;
@@ -249,7 +267,7 @@ body {
     width: 2em;
 
     border-radius: 100%;
-    background-color: rgb(230, 2, 2);
+    background-color: rgb(182, 2, 2);
 }
 .home {
     display: flex;
@@ -265,4 +283,7 @@ body {
     background-position: center;
 
     border-radius: 100%;
+    border-width: 0.1em;
+    border-style: solid;
+    border-color: black;
 }
