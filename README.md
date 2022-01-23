@@ -31,7 +31,8 @@ For this, the following technologies have been used:</br>
 You can see this project at <kbd>⇥</kbd> [GitHub pages](https://raquelmoya.github.io/proyectoNintendoCSS/ "GitHub pages")
 
 <hr>
-#### Credits
+
+### Credits
 
 Author: RaquelMoya
 
