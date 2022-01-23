@@ -1,11 +1,12 @@
-##Nintendo Switch
+## Nintendo Switch
 ![Hola](/img/Hello.gif)
+
 :wave: I'm Raquel Moya.</br>
 :computer: I'm a FSD student at <kbd>⇥</kbd> <img src="/img/GHA.png" width="130em" /></br>
 
 <hr>
 
-###About the proyect
+### About the proyect
 
 This project consists in reproducing the frontal image of a game console :video_game:. In this case, it is the Nintendo Switch.
 
@@ -19,7 +20,7 @@ You can see that the screen is reproducing a GIF.
 
 <hr>
 
-###Built with
+### Built with
 
 For this, the following technologies have been used:</br>
 <img src="img/css.png" width="90em"/><img src="img/html.png" width="90em"/>
@@ -30,7 +31,7 @@ For this, the following technologies have been used:</br>
 You can see this project at <kbd>⇥</kbd> [GitHub pages](https://raquelmoya.github.io/proyectoNintendoCSS/ "GitHub pages")
 
 <hr>
-###Credits
+#### Credits
 
 Author: RaquelMoya
 
